@@ -56,7 +56,7 @@ with tab1:
 
 # ✍ **Tab 2: Manuelle Texteingabe**
 with tab2:
-    text = st.text_input("Insert a text to get the POS tags for it")
+    text = st.text_input("Insert a text to get the NER tags for it")
 
     if text:
         # Tokenisierung mit Rückgabe der Wortgrenzen
