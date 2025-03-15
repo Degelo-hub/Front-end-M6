@@ -5,7 +5,7 @@ from io import StringIO
 import random
 
 # Page Config muss als erstes kommen!
-st.set_page_config(page_title="MNER Tagger App", page_icon="📝")
+st.set_page_config(page_title="MNER Tagger App")
 
 # Titel & Beschreibung
 st.markdown("# MNER Tagger App")   
